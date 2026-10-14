@@ -1,9 +1,9 @@
-# Python 3.10+ 版本依赖
+# Python 3.11+ 版本依赖
 # 注意: 版本要求已调整为适配阿里云镜像源 (http://mirrors.cloud.aliyuncs.com/pypi/simple/)
 # 如需最新版本，请使用官方 PyPI 源: pip install -r requirements.txt -i https://pypi.org/simple
 #
 # ⚠️ Python 3.13 用户注意:
-# - 推荐使用 Python 3.10 或 3.11 以获得最佳兼容性
+# - 项目当前支持 Python 3.11
 # - 如果使用 Python 3.13，某些依赖可能有版本冲突警告，但通常可以正常运行
 # - 详细说明请查看 INSTALL_GUIDE_PYTHON313.md
 
@@ -98,7 +98,7 @@ aliyun-python-sdk-core>=2.15.0
 jmespath>=0.9.3,<1.0.0  # aliyun-python-sdk-core 依赖（注意版本约束）
 # 注意: aliyun-python-sdk-nls-cloud-api 在镜像源中可能不可用，需要从官方 PyPI 安装
 # aliyun-python-sdk-nls-cloud-api>=1.0.0
-# 如果镜像源没有，可以尝试: pip3.10 install aliyun-python-sdk-nls-cloud-api -i https://pypi.org/simple
+# 如果镜像源没有，可以尝试: pip3.11 install aliyun-python-sdk-nls-cloud-api -i https://pypi.org/simple
 aliyun-python-sdk-imageprocess>=2.0.0
 aliyun-python-sdk-ocr>=1.0.0
 
@@ -107,7 +107,7 @@ gTTS>=2.5.0
 
 # 其他多模态依赖
 # 注意: Python 3.13 需要 numpy >= 1.26
-# 对于 Python 3.10-3.12，可以使用 numpy < 1.24
+# 对于 Python 3.11-3.12，可以使用 numpy < 1.24
 # 这里使用更宽松的版本约束，让 pip 自动选择兼容版本
 # 如果遇到 numpy 版本冲突，请手动安装: pip install "numpy>=1.26.0"
 # 注意: langchain 0.2.x 要求 numpy < 2.0.0，但 Python 3.13 通常安装 numpy 2.2.6

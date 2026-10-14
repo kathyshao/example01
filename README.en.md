@@ -24,7 +24,7 @@ An open-source AI conversation application for emotional-support scenarios. It c
 | Layer | Technologies |
 | --- | --- |
 | Frontend | React 18, Axios, styled-components, react-markdown |
-| API | Python 3.10+, FastAPI, Uvicorn, Pydantic v1 |
+| API | Python 3.11+, FastAPI, Uvicorn, Pydantic v1 |
 | AI | OpenAI-compatible APIs, LangChain, Runtime + Skills |
 | Data | MySQL / SQLite, ChromaDB, optional Redis |
 | Operations | Docker Compose, Nginx, Prometheus, Grafana |
@@ -33,7 +33,7 @@ An open-source AI conversation application for emotional-support scenarios. It c
 
 ### 1. Prerequisites
 
-- Python 3.10 or 3.11 for the best compatibility
+- Python 3.11 (the supported project runtime)
 - Node.js 18+ and npm
 - An API key for an OpenAI-compatible model provider
 - MySQL 8 (optional; SQLite can be used locally)

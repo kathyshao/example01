@@ -1,5 +1,5 @@
 # 多阶段构建
-FROM python:3.9-slim as builder
+FROM python:3.11-slim as builder
 
 # 构建参数：APT镜像源（可选：aliyun, tsinghua, ustc, 或留空使用官方源）
 ARG APT_MIRROR=aliyun
@@ -64,7 +64,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir --user -r requirements.txt
 
 # 生产阶段
-FROM python:3.9-slim
+FROM python:3.11-slim
 
 # 设置环境变量
 ENV PYTHONPATH=/app

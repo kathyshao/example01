@@ -24,7 +24,7 @@
 | 层级 | 技术 |
 | --- | --- |
 | 前端 | React 18、Axios、styled-components、react-markdown |
-| API | Python 3.10+、FastAPI、Uvicorn、Pydantic v1 |
+| API | Python 3.11+、FastAPI、Uvicorn、Pydantic v1 |
 | AI | OpenAI-compatible API、LangChain、Runtime + Skills |
 | 数据 | MySQL / SQLite、ChromaDB、Redis（可选） |
 | 运维 | Docker Compose、Nginx、Prometheus、Grafana |
@@ -33,7 +33,7 @@
 
 ### 1. 准备环境
 
-- Python 3.10 或 3.11（兼容性最佳）
+- Python 3.11（项目支持的运行时）
 - Node.js 18+ 与 npm
 - 一个兼容 OpenAI API 的模型服务密钥
 - MySQL 8（可选；未配置时可使用 SQLite）
