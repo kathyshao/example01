@@ -59,6 +59,7 @@ chroma_db/
 assets/
 
 # Runtime data (see AGENTS.md §17)
+.worktrees/
 uploads/
 context_storage/
 tmp/
